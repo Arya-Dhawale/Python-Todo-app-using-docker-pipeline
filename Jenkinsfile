@@ -28,7 +28,7 @@ pipeline {
                     sh '''
                         docker stop python-todo || true
                         docker rm python-todo || true
-                        docker run -d --name python-todo aryadhawale/python-todo:latest
+                        docker run -d --name python-todo aryadhawale/python-exercise:latest
                     '''
                 }
             }
