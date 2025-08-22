@@ -7,5 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "todo.py"]
+#CMD ["python", "todo.py"]
 CMD ["sh", "-c", "while true; do sleep 1000; done"]
